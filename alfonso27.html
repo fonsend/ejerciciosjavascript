@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+
+        let o1 = { nombre: "pedro", edad: 20 };
+        let o2 = { nombre: "juan", edad: 30 };
+        let o3 = { nombre: "miguel", edad: 40 };
+        let lista = [o1, o2, o3];
+        let media = 0;
+
+
+        /*
+          console.log(o1.nombre);
+          console.log(o1.edad);
+        */
+        for (i = 0; i < lista.length; i++) {
+            media = media + lista[i].edad;
+        }
+        console.log(media / lista.length);
+    </script>
+</head>
+</html>

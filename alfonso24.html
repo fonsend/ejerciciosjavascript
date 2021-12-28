@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        // Dado un array de importes,crear un nuevo array con las siguientes condiciones:
+        //si el importe es menor que 100 se suma al total
+        //si el importe está entre 100-200 se suma al total, con un 20% de descuento
+        //si el importe es mayor de 200 se suma al total, con un 40% de descuento
+
+        let importes = [50, 200, 600, 350, 150, 225];
+        let importes2 = 0;
+
+        for (i = 0; i < importes.length; i++) {
+            if (importes[i] < 100) {
+                importes2 = importes2 + importes[i];
+            }
+            else if (importes[i] <= 200 && importes[i] >= 100) {
+                importes2 = importes2 + importes[i] * 20 / 100;
+
+            }
+            else (importes[i] > 200);
+            {
+                importes2 = importes2 + importes[i] * 40 / 100;
+            }
+        }
+        console.log(importes2);
+
+    </script>
+</head>
+
+</html>
+
+</html>
