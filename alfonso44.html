@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+
+        /*una funcion recibe dos lados y me 
+        imprime con asteriscos ese rectangulo*/
+
+        function rectangulo() {
+
+    
+            let lado1 = "5";
+
+            for (let i = 0; i < lado1.length; i++) {
+
+                lado1 = lado1 + "*";
+
+            }
+            return lado1;
+
+            let lado2 = "10";
+
+            for (let j = 0; j < lado2.length; j++) {
+
+                lado2 = lado2 + "*";
+                lado2.push(lado1);
+               
+
+            }
+            return lado2;
+            rectangulo=lado2;
+            console.log(rectangulo);
+
+        }
+
+    </script>
+</head>
+
+</html>
